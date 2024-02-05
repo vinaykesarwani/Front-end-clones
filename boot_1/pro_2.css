@@ -1,0 +1,11 @@
+body::before{
+    content: "";
+    display: block;
+    height: 0px;
+}
+
+@media (min-width: 768px){
+    .news_letter_input{
+        width:40%;
+    }
+}
